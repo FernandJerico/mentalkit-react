@@ -1,8 +1,10 @@
 import FaqComponent from "../components/FaqComponent";
 const FaqPage = () => {
   return (
-    <div>
-      <FaqComponent />
+    <div className="faq-page">
+      <div className="faq">
+        <FaqComponent />
+      </div>
     </div>
   );
 };

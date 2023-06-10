@@ -324,9 +324,66 @@ header {
 }
 /* Consultation */
 
+/* Style Testimonial */
+
+.testimonial-page .testimonial {
+  background-color: var(--primary-color);
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+
+.testimonial-page .testimonial .row:nth-child(1) h1 {
+  color: var(--color-text);
+}
+
+.testimonial-page .testimonial .row:nth-child(1) p {
+  color: var(--color-text);
+}
+
+.testimonial-page .testimonial .row:nth-child(2) .col .desc {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.testimonial-page .testimonial .desc {
+  color: var(--color-text);
+  font-weight: 500;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.testimonial-page .testimonial .people {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  column-gap: 10px;
+}
+
+.testimonial-page .testimonial .people h5,
+.testimonial-page .testimonial .people p {
+  color: var(--color-text);
+}
+
+.testimonial-page .testimonial .people h5 {
+  font-weight: 600;
+}
+
+.testimonial-page .testimonial .people h5 {
+  opacity: 50%;
+}
+
+.testimonial-page .testimonial .people img {
+  width: 80px;
+  border-radius: 100%;
+}
+/* Style Testimonial */
+
+.faq-page .faq {
+  padding-top: 70px;
+}
 /* Style FAQ */
 .faq {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 100px;
   background-color: var(--primary-color);
 }
