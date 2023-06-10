@@ -22,7 +22,7 @@ function App() {
         <Route path="/terms" Component={TermsConditionsPage} />
       </Routes>
 
-      {/* <FooterComponent /> */}
+      <FooterComponent />
     </div>
   );
 }
