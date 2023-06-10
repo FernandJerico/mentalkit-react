@@ -278,4 +278,20 @@ header {
 .faq h2 {
   color: var(--color-text);
 }
+
+.faq .accordion .accordion-button {
+  color: var(--color-text);
+  font-weight: bold;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+
+.faq .accordion .accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.faq .accordion .accordion-body {
+  background-color: #ffffff;
+}
 /* Style FAQ */
