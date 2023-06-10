@@ -269,6 +269,61 @@ header {
   }
 }
 
+/* Consultation */
+.consultation-page .consultation {
+  background-color: var(--primary-color);
+  padding-bottom: 100px;
+}
+
+.consultation-page .consultation .row:nth-child(1) h1,
+.consultation-page .consultation .row:nth-child(1) p {
+  color: var(--color-text);
+}
+
+.consultation-page .consultation .row:nth-child(1) {
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+
+.consultation-page .consultation .row:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+  padding-inline: 10px;
+}
+
+.consultation-page .consultation .row:nth-child(2) .col {
+  background-color: #ffffff;
+  padding: 0;
+}
+
+.consultation-page .consultation .row:nth-child(2) img {
+  height: 250px;
+}
+
+.consultation-page .consultation .row:nth-child(2) .star i {
+  color: gold;
+}
+
+.consultation-page .consultation .row:nth-child(2) button {
+  background-color: var(--third-color);
+  color: var(--primary-color);
+  border: 0;
+  height: 35px;
+  width: 70px;
+}
+
+.consultation-page .consultation .row:nth-child(2) button:hover {
+  background-color: #36714b;
+}
+
+.consultation-page .consultation .row:nth-child(2) h5 {
+  color: var(--color-text);
+  font-weight: bold;
+  line-height: 1.5;
+}
+/* Consultation */
+
 /* Style FAQ */
 .faq {
   padding-top: 100px;
@@ -299,7 +354,7 @@ header {
 /* Style Footer */
 .footer {
   width: 100%;
-  min-height: 60vh;
+  min-height: 50vh;
 }
 
 .footer .row:nth-child(1) .col:nth-child(1) h3 {
@@ -369,6 +424,6 @@ header {
 }
 
 .footer .row:nth-child(2) {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 /* Style Footer */
