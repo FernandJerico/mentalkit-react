@@ -378,6 +378,17 @@ header {
 }
 /* Style Testimonial */
 
+/* Style Terms and Condition */
+.terms-page .terms {
+  padding-top: 130px;
+  background-color: var(--primary-color);
+}
+
+.terms-page .terms p {
+  line-height: 2;
+}
+/* Style Terms and Condition */
+
 .faq-page .faq {
   padding-top: 70px;
 }
