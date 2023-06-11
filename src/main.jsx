@@ -5,6 +5,7 @@ import ScrollToTop from "./components/scrollToTop.jsx";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./dist/css/main.css";
+import "animate.css";
 
 import { BrowserRouter } from "react-router-dom";
 

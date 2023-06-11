@@ -20,30 +20,34 @@ const Homepage = () => {
   let navigate = useNavigate();
   return (
     <div className="homepage">
-      <header className="w-100 min-vh-100 d-flex align-items-center">
+      <header className="w-100 min-vh-100 d-flex align-items-center overflow-hidden">
         <Container>
           <Row className="header-box d-flex align-items-center pt-lg-5">
             <Col lg="6">
-              <h1 className="mb-4">
+              <h1 className="mb-4 animate__animated animate__fadeInUp animate__delay-1s">
                 Merasa Cemas? <br /> <span>Ayo Konsultasi</span> <br />
                 Sekarang!
               </h1>
-              <p className="mb-4">
+              <p className="mb-4 animate__animated animate__fadeInUp animate__delay-1s">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
                 aspernatur, expedita molestias delectus labore quia sint
                 incidunt qui maiores alias?
               </p>
               <button
-                className="btn btn-success btn-lg rounded-1 me-2 mb-xs-0 mb-2"
+                className="btn btn-success btn-lg rounded-1 me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s"
                 onClick={() => navigate("/consultation")}>
                 Lihat Psikolog
               </button>
-              <button className="btn btn-outline-success btn-lg rounded-1 me-2 mb-xs-0 mb-2">
+              <button className="btn btn-outline-success btn-lg rounded-1 me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-1s">
                 Lihat Promo
               </button>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-5">
-              <img src={HeroImage} alt="hero-img" />
+              <img
+                src={HeroImage}
+                alt="hero-img"
+                className="animate__animated animate__fadeInUp"
+              />
             </Col>
           </Row>
         </Container>
