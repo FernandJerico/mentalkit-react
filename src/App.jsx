@@ -1,4 +1,4 @@
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import NavbarComponent from "./components/NavbarComponent";
 import FooterComponent from "./components/FooterComponent";
@@ -11,21 +11,19 @@ import TermsConditionsPage from "./pages/TermsConditionsPage";
 
 function App() {
   return (
-    <HashRouter basename="/">
-      <div>
-        <NavbarComponent />
+    <div>
+      <NavbarComponent />
 
-        <Routes>
-          <Route path="/" Component={Homepage} />
-          <Route path="/consultation" Component={ConsultationPage} />
-          <Route path="/testimonial" Component={TestimonialPage} />
-          <Route path="/faq" Component={FaqPage} />
-          <Route path="/terms" Component={TermsConditionsPage} />
-        </Routes>
+      <Routes>
+        <Route path="/" Component={Homepage} />
+        <Route path="/consultation" Component={ConsultationPage} />
+        <Route path="/testimonial" Component={TestimonialPage} />
+        <Route path="/faq" Component={FaqPage} />
+        <Route path="/terms" Component={TermsConditionsPage} />
+      </Routes>
 
-        <FooterComponent />
-      </div>
-    </HashRouter>
+      <FooterComponent />
+    </div>
   );
 }
 
