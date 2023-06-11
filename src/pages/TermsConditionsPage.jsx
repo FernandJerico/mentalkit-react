@@ -9,10 +9,10 @@ const TermsConditionsPage = () => {
           <Container>
             <Row>
               <Col>
-                <h1 className="text-center fw-bold mb-2">
+                <h1 className="text-center fw-bold mb-2 animate__animated animate__fadeInUp animate__delay-1s">
                   Terms and Conditions
                 </h1>
-                <p className="text-center">
+                <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut,
                   fugit!
                 </p>

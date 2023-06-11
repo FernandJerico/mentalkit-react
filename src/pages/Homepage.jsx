@@ -65,7 +65,12 @@ const Homepage = () => {
           <Row>
             {listPsikolog.map((psikolog) => {
               return (
-                <Col key={psikolog.id} className="shadow rounded">
+                <Col
+                  key={psikolog.id}
+                  className="shadow rounded"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay={psikolog.delay}>
                   <img
                     src={psikolog.image}
                     alt="unsplash.com"
@@ -91,6 +96,8 @@ const Homepage = () => {
             <Col className="text-center">
               <button
                 className="btn btn-success rounded-5 btn-lg"
+                data-aos="fade-up"
+                data-aos-duration="1000"
                 onClick={() => navigate("/consultation")}>
                 Lihat Semua Psikolog
                 <i className="fa-solid fa-chevron-right ms-1"></i>

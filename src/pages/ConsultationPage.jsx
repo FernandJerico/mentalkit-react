@@ -9,8 +9,10 @@ const ConsultationPage = () => {
         <Container>
           <Row>
             <Col>
-              <h1 className="fw-bold text-center">All Psikolog</h1>
-              <p className="text-center">
+              <h1 className="fw-bold text-center animate__animated animate__fadeInUp animate__delay-1s">
+                All Psikolog
+              </h1>
+              <p className="text-center animate__animated animate__fadeInUp animate__delay-1s">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Molestiae, impedit!
               </p>
@@ -19,7 +21,12 @@ const ConsultationPage = () => {
           <Row>
             {listPsikolog.map((psikolog) => {
               return (
-                <Col key={psikolog.id} className="shadow rounded">
+                <Col
+                  key={psikolog.id}
+                  className="shadow rounded"
+                  data-aos="fade-up"
+                  data-aos-duration="1000"
+                  data-aos-delay={psikolog.delay}>
                   <img
                     src={psikolog.image}
                     alt="unsplash.com"

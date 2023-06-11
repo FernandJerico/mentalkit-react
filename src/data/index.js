@@ -51,7 +51,7 @@ export const listPsikolog = [
     name: "Olivia S.Psi, M.Psi, Psikolog",
     role: "Psikolog Klinis",
     detail: "Detail",
-    delay: "1300",
+    delay: "300",
   },
   {
     id: 2,
@@ -64,7 +64,7 @@ export const listPsikolog = [
     name: "Astri Haryanti S.Psi, M.Psi, Psikolog",
     role: "Psikolog Klinis",
     detail: "Detail",
-    delay: "1600",
+    delay: "600",
   },
   {
     id: 3,
@@ -77,7 +77,7 @@ export const listPsikolog = [
     name: "Bayu Prasetya Yudha S.Psi,MM, M.Psi, Psikolog",
     role: "Psikolog Klinis",
     detail: "Detail",
-    delay: "1900",
+    delay: "900",
   },
   {
     id: 4,
@@ -90,7 +90,7 @@ export const listPsikolog = [
     name: "Khalida Yurahmi S.Psi, M.Psi, Psikolog",
     role: "Psikolog Klinis",
     detail: "Detail",
-    delay: "",
+    delay: "1200",
   },
   {
     id: 5,
@@ -129,7 +129,7 @@ export const listPsikolog = [
     name: "Angie Nathania Devi M.Psi, Psikolog",
     role: "Psikolog Klinis",
     detail: "Detail",
-    delay: "",
+    delay: "900",
   },
   {
     id: 8,
@@ -142,7 +142,7 @@ export const listPsikolog = [
     name: "Dina Zhafarina M.Psi, Psikolog",
     role: "Psikolog Klinis",
     detail: "Detail",
-    delay: "300",
+    delay: "1200",
   },
   // {
   //   id: 9,
