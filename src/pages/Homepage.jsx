@@ -33,7 +33,9 @@ const Homepage = () => {
                 aspernatur, expedita molestias delectus labore quia sint
                 incidunt qui maiores alias?
               </p>
-              <button className="btn btn-success btn-lg rounded-1 me-2 mb-xs-0 mb-2">
+              <button
+                className="btn btn-success btn-lg rounded-1 me-2 mb-xs-0 mb-2"
+                onClick={() => navigate("/consultation")}>
                 Lihat Psikolog
               </button>
               <button className="btn btn-outline-success btn-lg rounded-1 me-2 mb-xs-0 mb-2">
